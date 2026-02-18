@@ -1,0 +1,6 @@
+spring:
+  mongodb:
+    uri: mongodb://root:secret@localhost:27017/filesdb?authSource=admin
+logging:
+  level:
+    root: debug
